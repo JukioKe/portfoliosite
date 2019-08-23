@@ -10,6 +10,11 @@ html *, html *:after, html *:before {
   height: 100px;
 }
 
+#github-icon {
+  width: 50px;
+  margin-right: 14px;
+}
+
 #nav-link {
   line-height: 100px;
   margin-right: 50px;
