@@ -34,18 +34,27 @@ h2 {
 }
 
 .bg-light {
-  background-color: #d2dde8!important;
+  background-color: #7898b3!important;
   padding: 0px 40px;
 }
 
 .btn-outline-success {
-  color: #6589b6;
+  color: #464f5a;
   border-color: #5a5b67;
 }
 
-.btn-primary {
+.btn-outline-success:hover {
+  background-color: #4e4f52b7;
+  border-color: #5a5b67;
+}
+
+#button-container {
   position: absolute;
-  bottom: 20px;
+  bottom: 16px;
+}
+
+.btn-primary {
+  margin-right: 5px;
 }
 
 .card-body {
@@ -61,6 +70,20 @@ h2 {
 .card:hover {
   transform: scale(1.05) translateZ(0);
   transition-duration: 0.5s;
+}
+
+.tag {
+  margin: 0px;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  background-color: #1a1a1ac7;
+  width: 55px;
+  text-align: center;
+  color: #dbdbdb;
+  font-size: 0.7em;
+  padding: 3px 0px;
+  border-radius: 2px
 }
 
 .footer {
@@ -91,10 +114,21 @@ h2 {
   padding-top: 1rem!important;
 }
 
-@media only screen and (max-width: 1000px) {
+.github {
+  background-color: #363738de;
+}
+
+.github:hover {
+  background-color: #4e4f52b7;
+}
+
+@media only screen and (max-width: 1200px) {
   .d-inline-flex {
     justify-content: center;
   }
+}
+
+@media only screen and (max-width: 1000px) {
   #nav-link {
     line-height: 50px;
   }
