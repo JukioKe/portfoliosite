@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+
+html *, html *:after, html *:before {
+  box-sizing: inherit;
+}
+
+#logo {
+  height: 100px;
+}
+
+#nav-link {
+  line-height: 100px;
+  margin-right: 50px;
+}
+
+.navbar .navbar-expand-lg .navbar-light .bg-light {
+  padding: 0px 30px;
+}
+
+h2 {
+  margin: 20px 40px;
+}
+
+.card {
+  width: 18rem;
+  margin: 0px 24px 24px 0px;
+}
+
+.d-inline-flex {
+  flex-wrap: wrap;
+  margin: 0px 30px 80px 30px;
+}
+
+.bg-light {
+  background-color: #d2dde8!important;
+  padding: 0px 40px;
+}
+
+.btn-outline-success {
+  color: #6589b6;
+  border-color: #5a5b67;
+}
+
+.btn-primary {
+  position: absolute;
+  bottom: 20px;
+}
+
+.card-body {
+  margin-bottom: 40px;
+}
+
+.card {
+  -webkit-box-shadow: 6px 5px 5px 0px rgba(24, 21, 74, 0.34);
+  -moz-box-shadow: 6px 5px 5px 0px rgba(24, 21, 74, 0.34);
+  box-shadow: 6px 5px 5px 0px rgba(24, 21, 74, 0.34);
+}
+
+.card:hover {
+  transform: scale(1.05) translateZ(0);
+  transition-duration: 0.5s;
+}
+
+.footer {
+  opacity: 0;
+  background-color: #1a1a1af3;
+  text-align: center;
+  flex-shrink: none;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-container {
+  width: auto;
+  height: 30px;
+  padding-top: 5px;
+}
+
+.mt-auto, .my-auto {
+  margin-top: auto!important;
+}
+
+.pb-3, .py-3 {
+  padding-bottom: 1rem!important;
+}
+
+.pt-3, .py-3 {
+  padding-top: 1rem!important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .d-inline-flex {
+    justify-content: center;
+  }
+  #nav-link {
+    line-height: 50px;
+  }
+  #logo {
+    height: 50px;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+}
