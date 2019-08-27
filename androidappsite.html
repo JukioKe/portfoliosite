@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style2.css">
   <link rel="icon" type="image/png" href="/favicon.ico">
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -30,14 +29,12 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">all apps</a>
+            <a class="nav-link" id="first" href="/">all apps</a>
+          </li>
+          <a class="nav-link" id="middle2" href="../webappsite.html">web apps</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../webappsite.html">web apps</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="../androidappsite.html">android apps <span
-                class="sr-only">(current)</span></a>
+            <a class="nav-link" id="middle1" href="../androidappsite.html">android apps</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -49,7 +46,6 @@
               <a class="dropdown-item" href="https://xda-developers.com" target="_blank">XDA Developers</a>
               <a class="dropdown-item" href="https://w3schools.com" target="_blank">W3schools</a>
               <a class="dropdown-item" href="https://mooc.fi" target="_blank">Helsinki MOOC</a>
-              <a class="dropdown-item" href="#">:D:D:D</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="https://github.com/jukioke" target="_blank">Jukka's Github</a>
             </div>
@@ -58,6 +54,8 @@
         <a href="https://github.com/JukioKe" target="_blank">
           <img id="github-icon" src="../images/octocat.png" class="d-inline-block align-top" alt="octocat">
         </a>
+        <img id="night-mode-toggle" src="../images/nightMode2.png" class="d-inline-block align-top"
+          alt="night-mode-toggle">
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">search</button>
@@ -69,7 +67,7 @@
   <h2>android apps</h2>
 
   <div class="d-inline-flex p-2 bd-highlight">
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <img src="../images/learnFinnish.png" class="card-img-top" alt="learn finnish app picture">
       <div class="card-body">
         <h5 class="card-title">Learn Finnish app</h5>
@@ -78,24 +76,25 @@
         <div id="button-container">
           <a href="https://github.com/JukioKe/LearnFinnish" class="btn btn-primary github" target="_blank">Github</a>
         </div>
-        <p class="tag">android</p>
+        <p class="tag android">android</p>
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <img src="../images/cryptoHodlers.png" class="card-img-top" alt="css scaling picture">
       <div class="card-body">
         <h5 class="card-title">Crypto Hodlers app</h5>
-        <p class="card-text">Android app for analyzing digital asset's values. With CMC web API users can get real time
-          data with ease.</p>
+        <p class="card-text">Android app for analyzing digital asset's values. With CMC web API users can get all needed
+          real time
+          data into one view.</p>
         <div id="button-container">
           <a href="https://github.com/JukioKe/CryptoHodlers" class="btn btn-primary github" target="_blank">Github</a>
         </div>
-        <p class="tag">android</p>
+        <p class="tag android">android</p>
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <img src="../images/coffeeFactory.png" class="card-img-top" alt="css scaling picture">
       <div class="card-body">
         <h5 class="card-title">Coffee Factory app</h5>
@@ -104,32 +103,31 @@
         <div id="button-container">
           <a href="https://github.com/JukioKe/CoffeeFactory" class="btn btn-primary github" target="_blank">Github</a>
         </div>
-        <p class="tag">android</p>
+        <p class="tag android">android</p>
       </div>
     </div>
-  </div>
 
-  <footer id="sticky-footer" class="footer mt-auto py-3">
-    <div class="footer-container">
-      <span class="text-muted">
-        ©2019 jukkas '@' pm.me
-      </span>
-    </div>
-  </footer>
+    <footer id="sticky-footer" class="footer mt-auto py-3">
+      <div class="footer-container">
+        <span class="text-muted">
+          ©2019 jukkas '@' pm.me
+        </span>
+      </div>
+    </footer>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="nightMode.js"></script>
 </body>
 
 </html>

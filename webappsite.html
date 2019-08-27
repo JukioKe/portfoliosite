@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style2.css">
   <link rel="icon" type="image/png" href="/favicon.ico">
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -30,13 +29,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">all apps</a>
+            <a class="nav-link" id="first" href="/">all apps</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="../webappsite.html">web apps <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="middle2" href="../webappsite.html">web apps</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../androidappsite.html">android apps</a>
+            <a class="nav-link" id="middle1" href="../androidappsite.html">android apps</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -48,7 +47,6 @@
               <a class="dropdown-item" href="https://xda-developers.com" target="_blank">XDA Developers</a>
               <a class="dropdown-item" href="https://w3schools.com" target="_blank">W3schools</a>
               <a class="dropdown-item" href="https://mooc.fi" target="_blank">Helsinki MOOC</a>
-              <a class="dropdown-item" href="#">:D:D:D</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="https://github.com/jukioke" target="_blank">Jukka's Github</a>
             </div>
@@ -57,6 +55,8 @@
         <a href="https://github.com/JukioKe" target="_blank">
           <img id="github-icon" src="../images/octocat.png" class="d-inline-block align-top" alt="octocat">
         </a>
+        <img id="night-mode-toggle" src="../images/nightMode2.png" class="d-inline-block align-top"
+          alt="night-mode-toggle">
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">search</button>
@@ -78,12 +78,12 @@
           <a href="https://reaktiopeli.jukka.now.sh" class="btn btn-primary" target="_blank">Play game</a>
           <a href="https://github.com/JukioKe/reactionx2019" class="btn btn-primary github" target="_blank">Github</a>
         </div>
-        <p class="tag">web</p>
+        <p class="tag web">web</p>
 
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <img src="../images/numbersGamePicture2.png" class="card-img-top" alt="numbers game picture">
       <div class="card-body">
         <h5 class="card-title">Lucky Numbers 7</h5>
@@ -92,11 +92,11 @@
           <a href="https://numeropeli.jukka.now.sh" class="btn btn-primary" target="_blank">Play game</a>
           <a href="https://github.com/JukioKe/Numeropeli" class="btn btn-primary github" target="_blank">Github</a>
         </div>
-        <p class="tag">web</p>
+        <p class="tag web">web</p>
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <img src="../images/timeCounter.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Time Counter app</h5>
@@ -105,11 +105,11 @@
           <a href="https://aikalaskuri.jukka.now.sh" class="btn btn-primary" target="_blank">Play app</a>
           <a href="https://github.com/JukioKe/aikalaskuri" class="btn btn-primary github" target="_blank">Github</a>
         </div>
-        <p class="tag">web</p>
+        <p class="tag web">web</p>
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <img src="../images/drumMachinePicture.png" class="card-img-top" alt="drum machine picture">
       <div class="card-body">
         <h5 class="card-title">JS Drum machine</h5>
@@ -117,11 +117,11 @@
         <div id="button-container">
           <a href="https://rumpukone.jukka.now.sh" class="btn btn-primary" target="_blank">Play app</a>
         </div>
-        <p class="tag">web</p>
+        <p class="tag web">web</p>
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <img src="../images/cssScaling.png" class="card-img-top" alt="css scaling picture">
       <div class="card-body">
         <h5 class="card-title">CSS Scaling demo</h5>
@@ -129,7 +129,7 @@
         <div id="button-container">
           <a href="https://css-scaling.jukka.now.sh" class="btn btn-primary" target="_blank">Play app</a>
         </div>
-        <p class="tag">web</p>
+        <p class="tag web">web</p>
       </div>
     </div>
   </div>
@@ -155,7 +155,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="main.js"></script>
-
+  <script src="nightMode.js"></script>
 </body>
 
 </html>
