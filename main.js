@@ -25,3 +25,5 @@ window.onload = (ev) => {
         document.querySelector(".footer").style.transition = "opacity 500ms";
     }
 }
+
+

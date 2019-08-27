@@ -11,7 +11,12 @@ html *, html *:after, html *:before {
 }
 
 #github-icon {
-  width: 50px;
+  width: 40px;
+  margin-right: 6px;
+}
+
+#night-mode-toggle {
+  width: 40px;
   margin-right: 14px;
 }
 
@@ -39,7 +44,7 @@ h2 {
 }
 
 .bg-light {
-  background-color: #7898b3!important;
+  background-color: #7898b3;
   padding: 0px 40px;
 }
 
@@ -60,6 +65,7 @@ h2 {
 
 .btn-primary {
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .card-body {
@@ -89,6 +95,16 @@ h2 {
   font-size: 0.7em;
   padding: 3px 0px;
   border-radius: 2px
+}
+
+.web {
+  background-color: #fd8e09;
+  color: white;
+}
+
+.android {
+  background-color: #79c258;
+  color: white;
 }
 
 .footer {
